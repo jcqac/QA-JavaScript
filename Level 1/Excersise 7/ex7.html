@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Excersise 7</title>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<h1>
+			The Sim-inator
+		</h1>
+		<h3>
+			Please fill in the the information below to create a Sim.
+		</h3>
+		<div id="in">
+			Name <input type="text" id="iName" placeholder="Name">
+			Age <input type="text" id="iAge" placeholder="Age">
+			Occupation <input type="text" id="iOccupation" placeholder="Occupation">
+			<button type="button" id="iSubmit" onclick="Simverse.create()">Create</button>
+			<button type="button" id="iInc" onclick="Simverse.increment()">Increment Age</button>
+			<button type="button" id="iSubmit" onclick="Simverse.update()">Update</button>
+		<div>
+		<div id="out">
+			Sim <input type="text" id="output" placeholder="Sim" readonly>
+		</div>
+		
+	</body>
+</html>
